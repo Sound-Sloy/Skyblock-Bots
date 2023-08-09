@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "skyblock-bots",
+	"version": "${version}",
+	"name": "Skyblock Bots",
+	"description": "This mod adds various bots for Hypixel Skyblock. NOT HYPIXEL TOS COMPLIENT!",
+	"authors": [
+		"Horea Tise @ horeatise@gmail.com"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/Sound-Sloy/Skyblock-Bots"
+	},
+	"license": "agpl-3.0",
+	"icon": "assets/skyblock-bots/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["me.horeatise.SkyblockBots"]
+	},
+	"mixins": [
+		"skyblock-bots.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.0"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
