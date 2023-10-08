@@ -153,6 +153,8 @@ public class MithrilBot {
         // Use tweakeroo's HoldAttack tweak
         // TODO: Replace this with actual block break handling
 
+        // movement this.networkHandler.sendPacket(new PlayerMoveC2SPacket.LookAndOnGround(this.getYaw(), this.getPitch(), this.isOnGround()));
+
 
 
     }
